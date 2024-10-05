@@ -1,4 +1,6 @@
-# Overwrite the existing __init__.py file in the mockit/configs/cisco_ios/scripts/ directory with this file
+'''
+Overwrite the existing __init__.py file in the mockit/configs/cisco_ios/scripts/ directory with the contents of this file
+'''
 
 from src.ssh_server.db_operations import create_table, create_record, read_record, update_record, delete_record
 import re
